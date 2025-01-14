@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-celery-commands"
+dynamic = ["version"]
+description = "Auto-register Celery tasks as Django management commands"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+    { name="Bart Machielsen", email="bartmachielsen@gmail.com" },
+]
+classifiers = [
+    "Framework :: Django",
+    "Framework :: Celery",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["django", "celery", "commands"]
+dependancies = []
+
+[project.urls]
+"Source" = "https://github.com/bartmachielsen/django-celery-commands"
+"Tracker" = "https://github.com/bartmachielsen/django-celery-commands/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
