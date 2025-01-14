@@ -25,3 +25,6 @@ dependancies = []
 [project.urls]
 "Source" = "https://github.com/bartmachielsen/django-celery-commands"
 "Tracker" = "https://github.com/bartmachielsen/django-celery-commands/issues"
+
+[tool.hatch.version]
+path = "django_celery_commands/__init__.py"
